@@ -1,0 +1,12 @@
+<svg viewBox="0 0 1000 1000" className="blob" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="a">
+            <path fill="var(--element)"
+                d="M823 628.5Q757 757 628.5 852T384 839.5Q268 732 233 616t21.5-210.5q56.5-94.5 151-194t262-73Q835 165 862 332.5t-39 296Z"></path>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#a)">
+        <path fill="var(--element)"
+            d="M823 628.5Q757 757 628.5 852T384 839.5Q268 732 233 616t21.5-210.5q56.5-94.5 151-194t262-73Q835 165 862 332.5t-39 296Z"></path>
+    </g>
+</svg>

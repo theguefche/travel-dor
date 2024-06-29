@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1000 1000" className="blob animate-mouvement" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="blob2Gradient"
+            gradientTransform="rotate(var(--blob2-gradient-angle) .5 .5)">
+            <stop offset="0%" stop-color="var(--primary)" />
+            <stop offset="100%" stop-color="var(--accent)" />
+        </linearGradient>
+        <clipPath id="blob2Path">
+            <path fill="currentColor"
+                d="M809 616Q685 732 548.5 809.5t-270-30.5Q145 671 102 479.5T247.5 254Q436 220 578 222.5t248.5 140Q933 500 809 616Z" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#blob2Path)">
+        <path fill="url(#blob2Gradient)"
+            d="M809 616Q685 732 548.5 809.5t-270-30.5Q145 671 102 479.5T247.5 254Q436 220 578 222.5t248.5 140Q933 500 809 616Z" />
+    </g>
+</svg>

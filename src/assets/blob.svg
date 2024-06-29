@@ -1,0 +1,16 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blobGradient" gradientTransform="rotate(var(--blob-gradient-angle) .5 .5)">
+      <stop offset="0%" stop-color="var(--primary)" />
+      <stop offset="100%" stop-color="var(--accent)" />
+    </linearGradient>
+    <clipPath id="blobPath">
+      <path fill="currentColor"
+        d="M813.5 674Q778 848 602 836t-355-70Q68 708 121 525.5T306.5 288Q439 233 619 179.5T824 313q25 187-10.5 361Z" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#blobPath)">
+    <path fill="url(#blobGradient)"
+      d="M813.5 674Q778 848 602 836t-355-70Q68 708 121 525.5T306.5 288Q439 233 619 179.5T824 313q25 187-10.5 361Z" />
+  </g>
+</svg>
